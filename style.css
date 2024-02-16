@@ -1,0 +1,60 @@
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+#container{
+    background-color: #c4c4c4;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+#container h1{
+    font-size: .8rem;
+    font-weight: 500;
+    color: black;
+    opacity: .6;
+}
+.show_valores{
+    line-height: 1.6rem;
+    height: 1.6rem;
+    padding: .2rem;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    overflow-wrap: break-word;
+}
+
+#valor_anterior{
+    font-size: 1.1rem;
+    font-weight: 500;
+    opacity: .7;
+}
+#vaor_atual{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+#btns{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: .2rem;
+}
+#btns button{
+    cursor: pointer;
+    background-color: #dbdbdb;
+    padding: 2rem .75rem;
+
+}
+.number{
+    background-color: #f3f3f3;
+}
+
+#igual{
+    grid-column: span 2;
+}
